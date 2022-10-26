@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-// import Profile from './profile';
-import ToDoList from './ToDoList';
+import ToDo from './ToDo';
 
 class App extends Component {
   render() {
     return (
       <div>
-        {/* <Profile /> */}
-        <ToDoList />
+        <ToDo />
       </div>
     );
   }
